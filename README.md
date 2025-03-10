@@ -232,3 +232,6 @@
   - **执行配置：** 使用 <<<gridSize, blockSize>>> 来指定核函数的执行配置。
   - **内存管理：** 使用 cudaMalloc、cudaMemcpy、cudaFree 等函数来管理设备内存。
   - **错误检查:** 虽然这个例子里没写，但在实际编写中要记得用cudaError_t 和 cudaGetLastError 进行错误检查
+
+
+
